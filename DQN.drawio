@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:04:48.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="AJp6yYDV8-2g2cZzUHqT" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:05:28.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KeS0lfhogjBvHIc4Ynfx" version="24.0.1" type="github">
   <diagram name="Page-1" id="WOyEt_blG9NadYAG7zFr">
-    <mxGraphModel dx="1235" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,11 @@
         <mxCell id="KFp8j3K33pDCHfUr5Khe-5" value="Replay buffer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f3b3b;" vertex="1" parent="1">
           <mxGeometry x="225" y="130" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KFp8j3K33pDCHfUr5Khe-6" target="KFp8j3K33pDCHfUr5Khe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KFp8j3K33pDCHfUr5Khe-6" value="Mini batch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f3b3b;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="210" width="95" height="30" as="geometry" />
+          <mxGeometry x="247.5" y="201" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KFp8j3K33pDCHfUr5Khe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="KFp8j3K33pDCHfUr5Khe-7" target="KFp8j3K33pDCHfUr5Khe-13">
           <mxGeometry relative="1" as="geometry" />
@@ -39,8 +42,14 @@
         <mxCell id="KFp8j3K33pDCHfUr5Khe-26" value="Train&lt;div&gt;Q-function&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="285" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KFp8j3K33pDCHfUr5Khe-28" target="KFp8j3K33pDCHfUr5Khe-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KFp8j3K33pDCHfUr5Khe-28" value="Q-function" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f3b3b;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="247.5" y="260" width="95" height="90" as="geometry" />
+          <mxGeometry x="247.5" y="255" width="95" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2424485-200.png;" vertex="1" parent="1">
+          <mxGeometry x="265" y="285" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
