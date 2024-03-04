@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T08:05:28.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="KeS0lfhogjBvHIc4Ynfx" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T08:10:52.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9saNnBVssGTKKIAZsigP" version="24.0.1" type="github">
   <diagram name="Page-1" id="WOyEt_blG9NadYAG7zFr">
     <mxGraphModel dx="875" dy="508" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KFp8j3K33pDCHfUr5Khe-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;opacity=50;" vertex="1" parent="1">
-          <mxGeometry x="152.5" y="60" width="285" height="410" as="geometry" />
+          <mxGeometry x="152.5" y="60" width="287.5" height="410" as="geometry" />
         </mxCell>
         <mxCell id="KFp8j3K33pDCHfUr5Khe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KFp8j3K33pDCHfUr5Khe-5" target="KFp8j3K33pDCHfUr5Khe-6">
           <mxGeometry relative="1" as="geometry" />
@@ -50,6 +50,30 @@
         </mxCell>
         <mxCell id="KFp8j3K33pDCHfUr5Khe-30" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/2424485-200.png;" vertex="1" parent="1">
           <mxGeometry x="265" y="285" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-33" value="Sample experiences" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-34" value="Get Q value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="340" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-35" value="Select&lt;div&gt;action&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="390" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-36" value="Store experience" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="110" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-37" value="Action" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-40" value="State reward" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="129" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-41" value="Transition" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="289" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KFp8j3K33pDCHfUr5Khe-42" value="Environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;shadow=0;textShadow=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="469.75" y="255" width="88.5" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
