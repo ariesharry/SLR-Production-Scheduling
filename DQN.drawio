@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T13:24:02.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="UjLLOaMvE4-PjBLfqN8n" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-24T13:28:39.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="MSnz6XjTyQt4MDjswh85" version="24.0.6" type="github">
   <diagram name="Page-1" id="WOyEt_blG9NadYAG7zFr">
     <mxGraphModel dx="913" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -124,7 +124,7 @@
         <mxCell id="C1MKuNEIWT1OXNP6wVUr-18" value="Store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="640" width="75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="C1MKuNEIWT1OXNP6wVUr-19" value="argmax" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="C1MKuNEIWT1OXNP6wVUr-19" value="max Q" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="415" y="770" width="55" height="20.5" as="geometry" />
         </mxCell>
         <mxCell id="C1MKuNEIWT1OXNP6wVUr-22" value="Environment" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=default;gradientColor=none;strokeColor=none;shadow=0;textShadow=0;glass=0;" vertex="1" parent="1">
@@ -136,8 +136,17 @@
             <mxPoint x="470" y="765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C1MKuNEIWT1OXNP6wVUr-35" value="Copy parameters&lt;div style=&quot;font-size: 8px;&quot;&gt;every N time steps&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="263.75" y="774" width="56.25" height="30" as="geometry" />
+        <mxCell id="C1MKuNEIWT1OXNP6wVUr-35" value="Copy Network" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="263.75" y="765.25" width="56.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C1MKuNEIWT1OXNP6wVUr-42" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;max Q&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="173.75" y="820" width="56.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C1MKuNEIWT1OXNP6wVUr-43" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Stored&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="195.63" y="680" width="56.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C1MKuNEIWT1OXNP6wVUr-44" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Stored&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="293.75" y="680" width="56.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
